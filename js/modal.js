@@ -7,147 +7,167 @@ const weekData = {
         title: "Introduction to OOP",
         description: "Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects containing data and methods. This week covers basic class definitions, object instantiation, and the concept of encapsulation — bundling data with methods that operate on that data.",
         links: [
-            { type: "Article", title: "What is Object-Oriented Programming?", url: "#", icon: articleIcon },
-            { type: "Video", title: "OOP Basics in C++ (YouTube)", url: "#", icon: videoIcon },
-            { type: "Documentation", title: "cppreference: Classes", url: "#", icon: documentIcon }
+            { type: "Video", title: "OOP Perspective", url: "https://www.aparat.com/v/g576239?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Separate Implementation From Definition", url: "https://www.aparat.com/v/Z7x8g?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Objects & Constructors", url: "https://www.aparat.com/v/i31sav7?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Operators & Keywords", url: "https://www.aparat.com/v/a5808c9?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Logical Operators", url: "https://www.aparat.com/v/D4xLe?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Random Numbers & Enums", url: "https://www.aparat.com/v/u8628x6?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Storage Classes", url: "https://www.aparat.com/v/c08m5vc?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Scopes & Call by Reference and Value", url: "https://www.aparat.com/v/w254n49?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Default Arguments in Functions", url: "https://www.aparat.com/v/fdF5c?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Function Templates", url: "https://www.aparat.com/v/g787c8x?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Recursion", url: "https://www.aparat.com/v/r992hq6?playlist=354696", icon: videoIcon },
         ]
     },
     2: {
         title: "Class Templates & Pointers",
         description: "Class templates allow you to create generic classes that work with different data types. Pointers store memory addresses and are fundamental for dynamic memory management, passing arguments by reference, and working with arrays and functions.",
         links: [
-            { type: "Article", title: "Templates in C++: A Complete Guide", url: "#", icon: "📄" },
-            { type: "Video", title: "Pointers Explained (C++ Tutorial)", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Templates", url: "#", icon: "📚" }
+            { type: "Video", title: "Pointers", url: "https://www.aparat.com/v/b23kr9h?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Array Class", url: "https://www.aparat.com/v/Xvwi6?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Vector Class", url: "https://www.aparat.com/v/l04425p?playlist=354696", icon: videoIcon },
         ]
     },
     3: {
         title: "Classes: A deeper look",
         description: "Dive deeper into class design including constructors (default, parameterized, copy), destructors, the 'this' pointer, static members, const member functions, and friend functions/classes. Understanding these concepts is crucial for writing robust C++ code.",
         links: [
-            { type: "Article", title: "Deep Dive into C++ Classes", url: "#", icon: "📄" },
-            { type: "Video", title: "Constructors and Destructors Explained", url: "#", icon: "🎥" },
-            { type: "Article", title: "Understanding the 'this' Pointer", url: "#", icon: "📄" }
+            { type: "Video", title: "Initialization", url: "https://www.aparat.com/v/b23kr9h?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "const Member Functions", url: "https://www.aparat.com/v/9xbDW?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Introduction to Exceptions", url: "https://www.aparat.com/v/K7Jx0?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Introduction to Exceptions (Part 2)", url: "https://www.aparat.com/v/w83w4co?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Function Overloading", url: "https://www.aparat.com/v/GTRNg?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Functions & Exceptions (More Detailed)", url: "https://www.aparat.com/v/g70s9e5?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Functions & Constructor Overloading", url: "https://www.aparat.com/v/b31fftr?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Default Argument for Constructors", url: "https://www.aparat.com/v/x5460el?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Destructors", url: "https://www.aparat.com/v/k8727nz?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Setter & Getter Functions", url: "https://www.aparat.com/v/v21sv97?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Default Memberwise Assignment & const Objects", url: "https://www.aparat.com/v/v82atb3?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Constructors & Destructors", url: "https://www.aparat.com/v/x052667?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "friend Functions & Classes", url: "https://www.aparat.com/v/r80iwv0?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "static Class Members", url: "https://www.aparat.com/v/a97jdh9?playlist=354696", icon: videoIcon },
         ]
     },
     4: {
         title: "Operator Overloading",
         description: "Operator overloading allows you to define how operators (+, -, *, ==, etc.) work with user-defined types. This enables intuitive syntax for classes like complex numbers, vectors, or matrices, making your code more natural and readable.",
         links: [
-            { type: "Article", title: "Operator Overloading Basics", url: "#", icon: "📄" },
-            { type: "Video", title: "Overloading Operators in C++", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Operator Overloading", url: "#", icon: "📚" }
+            { type: "Video", title: "Operator Overloading", url: "https://www.aparat.com/v/UsXxr?playlist=354696", icon:videoIcon },
+            { type: "Video", title: "Operator Overloading (Part 2)", url: "https://www.aparat.com/v/z22toay?playlist=354696", icon:videoIcon },
+            { type: "Video", title: "Binary Operators", url: "https://www.aparat.com/v/S2qMN?playlist=354696", icon:videoIcon },
+            { type: "Video", title: "Operator Overloading (Part 3)", url: "https://www.aparat.com/v/k54g6z7?playlist=354696", icon:videoIcon },
+            { type: "Video", title: "Increament & Decreament Operator", url: "https://www.aparat.com/v/P54Rd?playlist=354696", icon:videoIcon },
+            { type: "Video", title: "Dynamic Memory Management", url: "https://www.aparat.com/v/h82hh64?playlist=354696", icon:videoIcon },
         ]
     },
     5: {
         title: "Operator Overloading (cont.)",
-        description: "Advanced operator overloading techniques including overloading increment/decrement (prefix/postfix), function call operator (), subscript operator [], and input/output operators (>>, <<). Learn best practices and common pitfalls.",
+        description: "Operator overloading allows you to define how operators (+, -, *, ==, etc.) work with user-defined types. This enables intuitive syntax for classes like complex numbers, vectors, or matrices, making your code more natural and readable.",
         links: [
-            { type: "Article", title: "Advanced Operator Overloading", url: "#", icon: "📄" },
-            { type: "Video", title: "Stream Operators >> and <<", url: "#", icon: "🎥" },
-            { type: "Article", title: "Overloading [] and () Operators", url: "#", icon: "📄" }
+            { type: "Video", title: "Dynamic Memory Management (Part 2)", url: "https://www.aparat.com/v/c57997w?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Copy Constructor", url: "https://www.aparat.com/v/u990n8d?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Conversion Between Types", url: "https://www.aparat.com/v/x009n44?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Conversion Between Types (Part 2)", url: "https://www.aparat.com/v/n16h060?playlist=354696", icon: videoIcon },
         ]
     },
     6: {
         title: "Inheritance",
         description: "Inheritance allows a class to inherit properties and methods from another class, promoting code reuse and establishing hierarchical relationships. Topics include base/derived classes, access specifiers (public, protected, private), and constructor/destructor chaining.",
         links: [
-            { type: "Article", title: "Inheritance in C++ Explained", url: "#", icon: "📄" },
-            { type: "Video", title: "Base and Derived Classes", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Inheritance", url: "#", icon: "📚" }
+            { type: "Video", title: "Inheritance", url: "https://www.aparat.com/v/CI9t7?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Inheritance (Part 2)", url: "https://www.aparat.com/v/h55q61c?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Inheritance (Part 3)", url: "https://www.aparat.com/v/b52dx73?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Types of Inheritance", url: "https://www.aparat.com/v/a25ta4l?playlist=354696", icon: videoIcon },
         ]
     },
     7: {
         title: "Polymorphism",
         description: "Polymorphism enables objects of different classes to be treated as objects of a common base class. Virtual functions, override specifiers, and dynamic binding allow runtime polymorphic behavior. Learn how to design flexible and extensible systems.",
         links: [
-            { type: "Article", title: "Understanding Polymorphism", url: "#", icon: "📄" },
-            { type: "Video", title: "Virtual Functions and Dynamic Binding", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Virtual Functions", url: "#", icon: "📚" }
+            { type: "Video", title: "Polymorphism", url: "https://www.aparat.com/v/v5493y3?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Polymorphism (Part 2)", url: "https://www.aparat.com/v/J1YPx?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Polymorphism (Part 3)", url: "https://www.aparat.com/v/u623p3v?playlist=354696", icon: videoIcon },
         ]
     },
     8: {
-        title: "Polymorphism (Advanced)",
-        description: "Advanced polymorphism concepts including abstract classes, pure virtual functions, virtual destructors, runtime type information (RTTI), dynamic_cast, and multiple inheritance. Learn design patterns that leverage polymorphism effectively.",
+        title: "Polymorphism (cont.)",
+        description: "Polymorphism enables objects of different classes to be treated as objects of a common base class. Virtual functions, override specifiers, and dynamic binding allow runtime polymorphic behavior. Learn how to design flexible and extensible systems.",
         links: [
-            { type: "Article", title: "Abstract Classes and Pure Virtual", url: "#", icon: "📄" },
-            { type: "Video", title: "RTTI and dynamic_cast", url: "#", icon: "🎥" },
-            { type: "Article", title: "Design Patterns with Polymorphism", url: "#", icon: "📄" }
+            { type: "Video", title: "Polymorphism (Part 4)", url: "https://www.aparat.com/v/c631j2s?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Polymorphism (Part 5)", url: "https://www.aparat.com/v/SL64u?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Polymorphism (Conclusion)", url: "https://www.aparat.com/v/h674582?playlist=354696", icon: videoIcon },
         ]
     },
     9: {
         title: "Stream I/O",
-        description: "C++ stream I/O provides a powerful and flexible way to handle input/output operations. Learn about formatted/unformatted I/O, stream manipulators, error handling, string streams (stringstream), and custom stream classes.",
+        description: "C++ stream I/O provides a powerful and flexible way to handle input/output operations. Learn about formatted/unformatted I/O, stream manipulators, and custom stream classes.",
         links: [
-            { type: "Article", title: "C++ Stream I/O Tutorial", url: "#", icon: "📄" },
-            { type: "Video", title: "Stream Manipulators and Formatting", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: I/O Streams", url: "#", icon: "📚" }
+            { type: "Video", title: "Stream I/O", url: "https://www.aparat.com/v/h9071s9?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Stream Manipulators", url: "https://www.aparat.com/v/ZV7F5?playlist=354696", icon: videoIcon },
         ]
     },
     10: {
         title: "File Processing",
         description: "File I/O operations using ifstream, ofstream, and fstream classes. Learn to read/write text files, binary files, random access, error handling, and practical applications like data persistence and configuration management.",
         links: [
-            { type: "Article", title: "File I/O in C++", url: "#", icon: "📄" },
-            { type: "Video", title: "Reading and Writing Files", url: "#", icon: "🎥" },
-            { type: "Article", title: "Binary File Operations", url: "#", icon: "📄" }
+            { type: "Video", title: "File Processing", url: "https://www.aparat.com/v/r53pb5g?playlist=354696", icon: videoIcon},
+            { type: "Video", title: "File Processing (Part 2)", url: "https://www.aparat.com/v/b930del?playlist=354696", icon: videoIcon},
+            { type: "Video", title: "Binary Files", url: "https://www.aparat.com/v/SP0q3?playlist=354696", icon: videoIcon},
+            { type: "Video", title: "Binary Files (Part 2)", url: "https://www.aparat.com/v/u03f135?playlist=354696", icon: videoIcon},
         ]
     },
     11: {
         title: "STL Containers & Iterators",
-        description: "The Standard Template Library (STL) provides powerful container classes (vector, list, map, set, etc.) and iterators for traversing them. Learn to choose the right container, use iterators effectively, and understand complexity guarantees.",
+        description: "The Standard Template Library (STL) provides powerful container classes (list, map, set, etc.) and iterators for traversing them. Learn to choose the right container, use iterators effectively, and understand complexity guarantees.",
         links: [
-            { type: "Article", title: "STL Containers Overview", url: "#", icon: "📄" },
-            { type: "Video", title: "Vector vs List vs Map", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Containers", url: "#", icon: "📚" },
-            { type: "Video", title: "Iterators in STL", url: "#", icon: "🎥" }
+            { type: "Video", title: "Standard Template Library", url: "https://www.aparat.com/v/d672i29?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "iterators", url: "https://www.aparat.com/v/o915501?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "List & Queue", url: "https://www.aparat.com/v/b04933r?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Queue & Stack & Map & Set", url: "https://www.aparat.com/v/c5034w5?playlist=354696", icon: videoIcon },
         ]
     },
     12: {
-        title: "Algorithms & Exception Handling",
-        description: "STL algorithms (sort, find, transform, etc.) provide efficient, reusable operations on containers. Exception handling with try/catch/throw blocks allows graceful error handling and resource management in exceptional circumstances.",
+        title: "Algorithms",
+        description: "STL algorithms (sort, find, transform, etc.) provide efficient, reusable operations on containers.",
         links: [
-            { type: "Article", title: "STL Algorithms Reference", url: "#", icon: "📄" },
-            { type: "Video", title: "Exception Handling in C++", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Algorithms", url: "#", icon: "📚" }
+            { type: "Video", title: "Introduction to Algorithm Library", url: "https://www.aparat.com/v/W98eL?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "fill, generate, ...", url: "https://www.aparat.com/v/q151250?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "remove, replace, ...", url: "https://www.aparat.com/v/a073927?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "find, sort, minmax, ...", url: "https://www.aparat.com/v/e2368ds?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "copy, merge, swap, ...", url: "https://www.aparat.com/v/x9766m6?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Heap Alogrithms", url: "https://www.aparat.com/v/p545uu3?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Function Object", url: "https://www.aparat.com/v/c38q882?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Lambda Expressions", url: "https://www.aparat.com/v/d96ch?playlist=354696", icon: videoIcon },
         ]
     },
     13: {
         title: "Exception Handling & Templates",
-        description: "Deep dive into exception safety levels, RAII (Resource Acquisition Is Initialization), custom exceptions, and advanced template topics like template specialization, variadic templates, and SFINAE (Substitution Failure Is Not An Error).",
+        description: "Exception handling with try/catch/throw blocks allows graceful error handling and resource management in exceptional circumstances. Deep dive into exception safety levels, custom exceptions, and advanced template.",
         links: [
-            { type: "Article", title: "Exception Safety Guarantees", url: "#", icon: "📄" },
-            { type: "Video", title: "Template Specialization", url: "#", icon: "🎥" },
-            { type: "Article", title: "Variadic Templates in C++", url: "#", icon: "📄" }
+            { type: "Video", title: "Exception Handling", url: "https://www.aparat.com/v/WJV1x?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Exception Handling (Part 2)", url: "https://www.aparat.com/v/d867765?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Class Templates", url: "https://www.aparat.com/v/r77qlss?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Class Templates (More Details)", url: "https://www.aparat.com/v/b6467zp?playlist=354696", icon: videoIcon },
+            { type: "Video", title: "Class Templates (More Details) Part 3", url: "https://www.aparat.com/v/d23nhm3?playlist=354696", icon: videoIcon },
         ]
     },
     14: {
         title: "Search, Sort & Strings",
         description: "Implement and analyze searching (linear, binary) and sorting (bubble, merge, quick) algorithms. Work with C++ strings (std::string) including manipulation, searching, conversion, and performance considerations.",
         links: [
-            { type: "Article", title: "Searching Algorithms Comparison", url: "#", icon: "📄" },
-            { type: "Video", title: "Sorting Algorithms Visualized", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: std::string", url: "#", icon: "📚" }
+            { type: "Video", title: "string & string streams", url: "https://www.aparat.com/v/i48l9d0?playlist=354696", icon:videoIcon },
         ]
     },
     15: {
         title: "Other Advanced Topics",
-        description: "Explore additional C++ advanced features including smart pointers (unique_ptr, shared_ptr, weak_ptr), move semantics, rvalue references, lambda expressions, and functional programming patterns in C++.",
-        links: [
-            { type: "Article", title: "Smart Pointers Guide", url: "#", icon: "📄" },
-            { type: "Video", title: "Move Semantics Explained", url: "#", icon: "🎥" },
-            { type: "Article", title: "Lambda Expressions in C++", url: "#", icon: "📄" }
-        ]
+        description: "Explore additional C++ advanced features including const_cast, namespaces, multiple inheritance and ...",
+        links: []
     },
     16: {
         title: "Multithreading & Concurrency",
         description: "Modern C++ threading support including std::thread, std::async, std::future, mutexes, locks, condition variables, and parallel algorithms. Learn to write thread-safe code, avoid race conditions, and leverage multiple cores effectively.",
-        links: [
-            { type: "Article", title: "Introduction to C++ Threads", url: "#", icon: "📄" },
-            { type: "Video", title: "Mutexes and Locks", url: "#", icon: "🎥" },
-            { type: "Documentation", title: "cppreference: Concurrency", url: "#", icon: "📚" },
-            { type: "Article", title: "Parallel Algorithms in C++17", url: "#", icon: "📄" }
-        ]
+        links: []
     }
 };
 
