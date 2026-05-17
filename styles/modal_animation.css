@@ -1,0 +1,21 @@
+#modalContent {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#modalContent::-webkit-scrollbar {
+    width: 6px;
+}
+
+#modalContent::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#modalContent::-webkit-scrollbar-thumb {
+    background: #c7d2fe;
+    border-radius: 10px;
+}
+
+#modalContent::-webkit-scrollbar-thumb:hover {
+    background: #818cf8;
+}
