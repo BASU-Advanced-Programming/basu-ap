@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter_font/InterVariable.ttf");
+}
+* {
+    font-family: 'Inter', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(2px);
+    border-radius: 2rem;
+}
+.hover-glow:hover {
+    transform: translateY(-3px);
+    transition: all 0.2s ease;
+    box-shadow: 0 20px 25px -12px rgba(0, 0, 0, 0.15);
+}
+.code-bg {
+    background: radial-gradient(circle at 10% 20%, rgba(15, 25, 45, 0.03) 0%, rgba(0, 0, 0, 0.02) 90%);
+}
+.timeline-item {
+    transition: all 0.2s;
+}
+.timeline-item:hover {
+    background-color: #f8fafc;
+    transform: scale(1.01);
+}

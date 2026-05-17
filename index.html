@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Advanced Programming | C++ Course | Spring 4042</title>
+    <script src="https://c.vazirweb.ir/cdn/tailwind/3.4.10/tailwind.play.min.js"></script>
+    <link rel="stylesheet" href="/fonts/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body class="bg-slate-50 text-gray-800 antialiased">
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4 flex-wrap gap-3">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-code text-3xl text-indigo-600"></i>
+                    <div>
+                        <h1 class="text-xl font-bold bg-gradient-to-r from-indigo-700 to-purple-700 bg-clip-text text-transparent">Advanced Programming</h1>
+                        <p class="text-xs text-gray-500">C++ · Modern Paradigms · Concurrency</p>
+                    </div>
+                </div>
+                <div class="flex gap-5 text-sm font-medium">
+                    <a href="#about" class="hover:text-indigo-600 transition">About</a>
+                    <a href="#team" class="hover:text-indigo-600 transition">Team</a>
+                    <a href="#timeline" class="hover:text-indigo-600 transition">Syllabus</a>
+                    <a href="#resources" class="hover:text-indigo-600 transition">Resources</a>
+                </div>
+                <div class="hidden md:block text-xs bg-gray-100 px-3 py-1 rounded-full text-gray-600">
+                    <i class="far fa-calendar-alt mr-1"></i> Semester 4042
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-blue-50 py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-12">
+                <div class="lg:w-2/3">
+                    <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">Dr. Morteza Yousef Sanati · Spring 4042</span>
+                    <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 leading-tight">
+                        Build robust, modern <span class="text-indigo-600">C++ systems</span> <br> with advanced design.
+                    </h2>
+                    <p class="mt-6 text-lg text-gray-600 max-w-2xl">
+                        Master OOP, STL, concurrency & GUI development. Write exception-safe, resource-managed code using RAII and smart pointers. Industry-ready practices.
+                    </p>
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <div class="flex items-center gap-2 bg-white rounded-full shadow-sm px-4 py-2">
+                            <i class="fas fa-check-circle text-indigo-500"></i>
+                            <span class="text-sm">Design Patterns</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white rounded-full shadow-sm px-4 py-2">
+                            <i class="fas fa-microchip text-indigo-500"></i>
+                            <span class="text-sm">Multithreading</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white rounded-full shadow-sm px-4 py-2">
+                            <i class="fas fa-flask text-indigo-500"></i>
+                            <span class="text-sm">TDD & Unit Tests</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 bg-indigo-900/5 backdrop-blur-sm rounded-3xl p-6 border border-indigo-100 shadow-xl">
+                    <div class="flex justify-between items-center border-b border-indigo-200 pb-3">
+                        <span class="font-mono text-sm text-indigo-800"><i class="fab fa-cuttlefish"></i> advanced.cpp</span>
+                        <i class="fas fa-terminal text-gray-500"></i>
+                    </div>
+                    <pre class="text-xs font-mono mt-4 text-gray-700 overflow-x-auto"><code>// Modern C++ paradigm
+template&lt;typename T&gt;
+concept Serializable = requires(T t) {
+    { t.serialize() } -> std::same_as&lt;std::string&gt;;
+};
+
+class SmartResource {
+    std::unique_ptr&lt;Resource&gt; ptr;
+public:
+    ~SmartResource() noexcept = default;
+    // RAII in action
+};</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-slate-50 to-transparent"></div>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-20">
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-2xl shadow-md p-6 flex items-start gap-5 border border-gray-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 text-xl">	<i class="fas fa-chalkboard-teacher"></i></div>
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-indigo-500 font-semibold">Professor</p>
+                    <h3 class="text-xl font-bold">Dr. Morteza Yousef Sanati</h3>
+                    <p class="text-gray-600 text-sm mt-1"><i class="far fa-envelope mr-1"></i> mysanati@gmail.com</p>
+                    <div class="flex gap-3 mt-2 text-sm"><span class="bg-gray-100 px-2 py-1 rounded-full text-xs"><i class="fab fa-telegram"></i> @Mys1398</span><span><i class="fab fa-whatsapp"></i> Eitta: @Mys1398</span></div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 flex items-start gap-5 border border-gray-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 text-xl"><i class="fas fa-user-graduate"></i></div>
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-emerald-500 font-semibold">Head Teaching Assistant</p>
+                    <h3 class="text-xl font-bold">Taha Sadeghi</h3>
+                    <p class="text-gray-600 text-sm"><i class="far fa-envelope mr-1"></i> Nader2308@proton.me</p>
+                    <div class="mt-2"><span class="bg-gray-100 px-3 py-1 rounded-full text-xs"><i class="fab fa-telegram"></i> @Least3209</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <span class="text-indigo-600 font-semibold text-sm tracking-wide">COURSE OVERVIEW</span>
+                    <h2 class="text-3xl font-bold mt-2 mb-4">Advanced Paradigms <br>for Robust Software</h2>
+                    <p class="text-gray-600 leading-relaxed">This course examines advanced paradigms for designing and implementing robust software systems in C++. Building on foundational knowledge, it delves into sophisticated programming concepts and industry-standard practices.</p>
+                    <div class="mt-6 space-y-2">
+                        <div class="flex items-center gap-2"><i class="fas fa-caret-right text-indigo-500"></i><span>Advanced OOP & Design Patterns</span></div>
+                        <div class="flex items-center gap-2"><i class="fas fa-caret-right text-indigo-500"></i><span>Generic Programming & STL (Containers, Algorithms)</span></div>
+                        <div class="flex items-center gap-2"><i class="fas fa-caret-right text-indigo-500"></i><span>Modern C++ Standards: move semantics, lambdas, smart pointers</span></div>
+                        <div class="flex items-center gap-2"><i class="fas fa-caret-right text-indigo-500"></i><span>Concurrent programming & Multithreading models</span></div>
+                        <div class="flex items-center gap-2"><i class="fas fa-caret-right text-indigo-500"></i><span>GUI Application Development (Qt / modern C++ GUI)</span></div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-sm p-6 border border-gray-200">
+                    <h3 class="text-2xl font-bold flex items-center gap-2"><i class="fas fa-bullseye text-indigo-500"></i> Goals & Expectations</h3>
+                    <ul class="mt-4 space-y-3">
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i><span>Master advanced C++ features (classes, move semantics, lambdas, etc).</span></li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i><span>Design efficient apps using STL containers and algorithms.</span></li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i><span>Write safe, exception‑safe, resource‑managed code (RAII, smart pointers).</span></li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i><span>Apply OOP principles and design patterns (State, Observer, Singleton).</span></li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i><span>Design GUI & use concurrency / multithreading for parallel programming.</span></li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle text-green-500 mt-1"></i><span>Integrate unit tests using Test‑Driven Development principles.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold">Teaching Team</h2>
+                <p class="text-gray-500 mt-2">Instructors, project leads, and assignment heads — here to support you</p>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+                <div class="bg-slate-50 p-4 rounded-xl text-center shadow-sm hover:shadow-md transition"><div class="font-semibold">Taha Sadeghi</div><div class="text-xs text-indigo-600">Head TA</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Maryam Nokohan</div><div class="text-xs text-indigo-600">Head of Project</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Pooya Omidi</div><div class="text-xs text-indigo-600">Head of Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Kasra Alirezaei</div><div class="text-xs">Project, Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Saba Bahrami</div><div class="text-xs">Project, Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Amir Taha Bayganeh</div><div class="text-xs">Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Noora Panahi</div><div class="text-xs">Project</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Shahriar Kolivand</div><div class="text-xs">Project, Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Amin Rahimi</div><div class="text-xs">Project, Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Seyyed Amir M.</div><div class="text-xs">Teaching</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Mani Mohagheghi</div><div class="text-xs">Project</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Mahdi Mashouf</div><div class="text-xs">Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Mobina Safari</div><div class="text-xs">Teaching, Assignments</div></div>
+                <div class="bg-slate-50 p-4 rounded-xl text-center"><div class="font-semibold">Ali Hossien pour</div><div class="text-xs">Assignments</div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="py-16 bg-gradient-to-b from-gray-50 to-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8">
+                <div><h2 class="text-3xl font-bold tracking-tight">Course Timeline</h2><p class="text-gray-500 mt-1">Based on C++ How to Program (9th ed) & weekly modules</p></div>
+                <span class="text-sm bg-indigo-100 px-3 py-1 rounded-full mt-2">16 weeks · Advanced track</span>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4 timeline-item"><div class="text-indigo-600 text-sm font-bold">Week 1</div><div class="font-semibold text-lg">Introduction to OOP</div><div class="text-gray-500 text-sm">CH 3 & 6</div><div class="mt-2 flex flex-wrap gap-1"><span class="text-xs bg-gray-100 px-2 py-0.5 rounded">Classes</span><span class="text-xs bg-gray-100 px-2 py-0.5 rounded">Encapsulation</span></div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 2</div><div class="font-semibold">Class Templates & Pointers</div><div class="text-gray-500 text-sm">CH 7 & 8</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 3</div><div class="font-semibold">Classes: A deeper look</div><div class="text-gray-500 text-sm">CH 9</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 4</div><div class="font-semibold">Operator Overloading</div><div class="text-gray-500 text-sm">CH 10</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 5</div><div class="font-semibold">Operator Overloading (cont.)</div><div class="text-gray-500 text-sm">CH 10</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 6</div><div class="font-semibold">Inheritance</div><div class="text-gray-500 text-sm">CH 11</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 7</div><div class="font-semibold">Polymorphism</div><div class="text-gray-500 text-sm">CH 12</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 8</div><div class="font-semibold">Polymorphism (Advanced)</div><div class="text-gray-500 text-sm">CH 12</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 9</div><div class="font-semibold">Stream I/O</div><div class="text-gray-500 text-sm">CH 13</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 10</div><div class="font-semibold">File Processing</div><div class="text-gray-500 text-sm">CH 14</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 11</div><div class="font-semibold">STL Containers & Iterators</div><div class="text-gray-500 text-sm">CH 15</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 12</div><div class="font-semibold">Algorithms & Exception Handling</div><div class="text-gray-500 text-sm">CH 16 & 17</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 13</div><div class="font-semibold">Exception Handling & Templates</div><div class="text-gray-500 text-sm">CH 17 & 18</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 14</div><div class="font-semibold">Search, Sort & Strings</div><div class="text-gray-500 text-sm">CH 20 & 21</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-indigo-400 shadow-sm p-4"><div class="text-indigo-600 text-sm font-bold">Week 15</div><div class="font-semibold">Other Advanced Topics</div><div class="text-gray-500 text-sm">CH 23</div></div>
+                <div class="bg-white rounded-xl border-l-4 border-purple-400 shadow-md p-4"><div class="text-purple-600 text-sm font-bold">Week 16</div><div class="font-semibold">Multithreading & Concurrency</div><div class="text-gray-500 text-sm">Modern C++ threads, async, parallel patterns</div><span class="inline-block mt-1 text-xs bg-purple-100 text-purple-700 px-2 rounded">Final project</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-10">
+                <div class="flex-1">
+                    <div class="flex items-center gap-2 mb-4"><i class="fas fa-book-open text-3xl text-indigo-500"></i><h2 class="text-3xl font-bold">Course Resources</h2></div>
+                    <div class="bg-indigo-50 rounded-2xl p-6 border border-indigo-100">
+                        <p class="text-lg font-semibold">Main Textbook</p>
+                        <p class="text-xl font-bold mt-1">C++ How to Program (9th edition)</p>
+                        <p class="text-gray-600 mt-2">Deitel & Deitel — Comprehensive coverage of OOP, STL, and advanced C++11/14/17 features.</p>
+                        <div class="mt-4 flex gap-3 text-sm flex-wrap">
+                            <span class="bg-white px-3 py-1 rounded-full shadow-sm"><i class="fas fa-chalkboard"></i> Reference for all weeks</span>
+                            <span class="bg-white px-3 py-1 rounded-full shadow-sm"><i class="fas fa-laptop-code"></i> Code examples</span>
+                        </div>
+                    </div>
+                    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div class="flex items-start gap-3 p-4 rounded-xl border border-gray-200"><i class="fas fa-glasses text-indigo-500 text-xl"></i><div><h4 class="font-semibold">Modern C++ Guidelines</h4><p class="text-sm text-gray-500">C++ Core Guidelines, CPP reference</p></div></div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl border border-gray-200"><i class="fas fa-microchip text-indigo-500 text-xl"></i><div><h4 class="font-semibold">Concurrency Support</h4><p class="text-sm text-gray-500">std::thread, async, mutex, and lock guards</p></div></div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl border border-gray-200"><i class="fas fa-layer-group text-indigo-500 text-xl"></i><div><h4 class="font-semibold">Design Patterns</h4><p class="text-sm text-gray-500">GoF patterns: Observer, State, Singleton, Factory</p></div></div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl border border-gray-200"><i class="fas fa-vial text-indigo-500 text-xl"></i><div><h4 class="font-semibold">Unit Testing</h4><p class="text-sm text-gray-500">GoogleTest, Catch2, TDD principles</p></div></div>
+                    </div>
+                </div>
+                <div class="flex-1 bg-gray-50 rounded-2xl p-6 shadow-inner">
+                    <div class="flex items-center gap-2 border-b border-gray-200 pb-3"><i class="fas fa-headset text-indigo-500 text-2xl"></i><h3 class="text-xl font-bold">TA & Office Hours</h3></div>
+                    <div class="mt-4 space-y-3">
+                        <div><i class="fab fa-telegram mr-2 text-blue-500"></i><span class="font-mono">@Least3209</span> (Head TA – general inquiries)</div>
+                        <div><i class="fas fa-tasks mr-2 text-emerald-600"></i> Project & Assignment support via GitHub classroom & discussion board.</div>
+                        <div class="text-sm text-gray-700 mt-3 bg-white p-3 rounded-lg"><strong>Exam timeline</strong> — Midterms announced in weeks 7 & 14, final exam project showcase week 16. Refer to announcements on Telegram.</div>
+                        <div class="text-sm italic mt-2">All teaching team members are active on Telegram and will hold weekly review sessions.</div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-200">
+                        <p class="text-xs text-gray-400">* Detailed schedule & assignments will be released each Monday on course portal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-14 bg-indigo-900 text-white">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <i class="fas fa-quote-right text-4xl text-indigo-300 opacity-60 mb-4"></i>
+            <p class="text-xl md:text-2xl font-light italic">"Writing efficient, maintainable, and rigorously tested code is the hallmark of an advanced programmer."</p>
+            <p class="mt-4 font-medium">— Advanced Programming · Dr. Sanati</p>
+            <div class="mt-8 flex justify-center gap-5">
+                <span class="bg-indigo-800 px-4 py-2 rounded-full text-sm flex items-center gap-1"><i class="fab fa-github"></i> Course Repo</span>
+                <span class="bg-indigo-800 px-4 py-2 rounded-full text-sm flex items-center gap-1"><i class="fas fa-envelope"></i> Contact TA Team</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-3">
+            <span>© 4042 — Advanced Programming · Department of Computer Engineering</span>
+            <span class="flex gap-4"><i class="fab fa-telegram"></i> <i class="fab fa-github"></i> <i class="fas fa-university"></i></span>
+        </div>
+        <div class="text-xs mt-2 opacity-70">Based on syllabus by Dr. Morteza Yousef Sanati | Designed for TAs & students</div>
+    </footer>
+</body>
+</html>
