@@ -57,23 +57,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:w-1/3 bg-indigo-900/5 backdrop-blur-sm rounded-3xl p-6 border border-indigo-100 shadow-xl">
+                <div class="lg:w-1/3 bg-indigo-900/5 backdrop-blur-sm rounded-3xl p-6 border border-indigo-100 shadow-xl code-container">
                     <div class="flex justify-between items-center border-b border-indigo-200 pb-3">
-                        <span class="font-mono text-sm text-indigo-800"><i class="fab fa-cuttlefish"></i> advanced.cpp</span>
+                        <span class="font-mono text-sm text-indigo-800"><i class="far fa-file-code"></i> main.cc</span>
                         <i class="fas fa-terminal text-gray-500"></i>
                     </div>
-                    <pre class="text-xs font-mono mt-4 text-gray-700 overflow-x-auto"><code>// Modern C++ paradigm
-template&lt;typename T&gt;
-concept Serializable = requires(T t) {
-    { t.serialize() } -> std::same_as&lt;std::string&gt;;
-};
-
-class SmartResource {
-    std::unique_ptr&lt;Resource&gt; ptr;
-public:
-    ~SmartResource() noexcept = default;
-    // RAII in action
-};</code></pre>
+                    <pre class="mt-4 overflow-x-auto" style="background: #0d1117; border-radius: 12px; padding: 1rem;"><code style="font-family: monospace; color: #e6edf3; font-size: 0.85rem;"><span style="color: #ff7b72;" >int</span> <span style="color: #d2a8ff;" >main</span>() {
+    <span style="color: #d2a8ff;">AdvancedProgramming</span> ap;
+    ap.<span style="color: #d2a8ff;">letsGo</span>();
+    <span style="color: #ff7b72;">return</span> 0;
+}</code>
+</pre>
                 </div>
             </div>
         </div>

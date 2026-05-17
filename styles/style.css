@@ -28,3 +28,11 @@ html {
     background-color: #f8fafc;
     transform: scale(1.01);
 }
+
+.code-container {
+    position: relative;
+}
+
+code, code span{
+    font-family: 'monospace' !important;
+}
