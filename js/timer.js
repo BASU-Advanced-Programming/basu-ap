@@ -1,5 +1,5 @@
 (function() {
-      const targetDate = new Date("2026-10-31T00:00:00").getTime();
+      const targetDate = new Date("2026-06-09T23:59:59").getTime();
 
       const daysSpan = document.getElementById("days");
       const hoursSpan = document.getElementById("hours");
