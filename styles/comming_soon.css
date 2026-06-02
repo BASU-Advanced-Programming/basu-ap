@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #020101;
+    margin: 0;
+    min-height: 100vh;
+    cursor: crosshair;
+}
+
+.gothic-title {
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-shadow:
+    0 0 20px #000000,
+    0 0 40px #0a0a0a,
+    0 0 80px #1a0000,
+    0 0 120px #000000,
+    3px 3px 2px rgba(0,0,0,0.98);
+    letter-spacing: 0.12em;
+    color: #fdf5f5;
+}
+
+.medieval-text {
+    font-family: 'MedievalSharp', cursive;
+}
+
+.cinzel-text {
+    font-family: 'Cinzel Decorative', serif;
+}
+
+.timer-ring {
+    background: radial-gradient(ellipse at center, rgba(15, 8, 10, 0.85) 0%, rgba(2, 1, 2, 0.98) 70%, rgba(0, 0, 0, 0.99) 100%);
+    box-shadow:
+    0 0 80px rgba(0, 0, 0, 0.8),
+    0 0 120px rgba(20, 0, 5, 0.6),
+    inset 0 0 60px rgba(30, 5, 10, 0.5),
+    inset 0 0 100px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(120, 50, 60, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.blood-red-glow {
+    text-shadow:
+    0 0 25px #8b0000,
+    0 0 50px #4a0000,
+    0 0 80px #200000,
+    0 0 100px #0a0000;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: #fff0f0;
+}
+
+.divider-line {
+    background: linear-gradient(90deg,
+    transparent,
+    #3d1018,
+    #6b1a28,
+    #3d1018,
+    transparent);
+    height: 1px;
+    opacity: 0.9;
+}
+
+.gothic-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" opacity="0.06"><path d="M10 10 L30 5 L50 15 L30 25 Z" fill="%231a0000"/><path d="M120 60 L145 45 L170 65 L145 80 Z" fill="%230d0000"/><circle cx="90" cy="120" r="18" fill="none" stroke="%23200505" stroke-width="2"/><path d="M50 140 L70 125 L90 145 L70 160 Z" fill="%23150000"/><path d="M160 30 L185 15 L200 35 L185 50 Z" fill="%230a0000"/><path d="M30 170 L50 160 L70 175 L50 190 Z" fill="%23180000"/></svg>');
+    background-repeat: repeat;
+    background-size: 180px 180px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.gothic-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+    repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(20, 2, 5, 0.15) 40px, rgba(20, 2, 5, 0.15) 42px),
+    repeating-linear-gradient(-45deg, transparent, transparent 40px, rgba(20, 2, 5, 0.1) 40px, rgba(20, 2, 5, 0.1) 42px);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.content-relative {
+    position: relative;
+    z-index: 3;
+}
+
+.sharp-wing {
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 50% 100%, 0 30%);
+    background: linear-gradient(180deg, rgba(80, 20, 30, 0.6), rgba(20, 2, 5, 0.2));
+}
+
+.porcelain-skin {
+    text-shadow:
+    0 0 20px rgba(255, 235, 235, 0.5),
+    0 0 40px rgba(220, 190, 190, 0.3),
+    0 0 60px rgba(180, 140, 140, 0.15);
+}
+
+.spider-corner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.spider-corner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+    radial-gradient(circle at 0 0, transparent 15px, rgba(100, 25, 35, 0.6) 15px, rgba(100, 25, 35, 0.8) 16px, transparent 16px);
+}
